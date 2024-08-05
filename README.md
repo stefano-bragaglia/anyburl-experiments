@@ -8,7 +8,7 @@ Script to generate data and scripts for anyburl experiments.
     source .venv/bin/activate
     pip install --upgrade pip
     pip install -r requirements
-    python -m prepare.py
+    python -m prepare
 
 The script will create lots of folders and files containing data, configuration files, and scripts (see below).
 
