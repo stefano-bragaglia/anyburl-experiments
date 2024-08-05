@@ -21,8 +21,8 @@ tqdm.pandas()
 pd.set_option('display.max_columns', 50)
 pd.set_option('display.width', 120)
 
-TOP_K = 5  # 100
-WALL_TIME = 100  # 1_000
+TOP_K = 100
+WALL_TIME = 1_000
 
 PROGRAM_23_1 = 'AnyBURL-23-1.jar'
 PROGRAM_22 = 'AnyBURL-22.jar'
