@@ -20,7 +20,7 @@ The script will create lots of folders and files containing data, configuration 
     ./3_eval.sh
     ./4_explain.sh
 
-I couldn't maje this ./4_explain.sh to work: the documentation suggested to try what's in `2_alt__apply_explain.sh` which seems to work. 
+I couldn't maje this ./4_explain.sh to work: the documentation suggested to try what's in `2_alt__apply_explain.sh` which seems to work. Hit ratio and MRR are all 0s (but I hadn't run `learn.sh` for 1_000 as suggested).
 
 ### Next Steps
 Actually understand the results and check them!
