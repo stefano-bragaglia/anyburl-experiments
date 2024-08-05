@@ -157,7 +157,7 @@ def create_hetionet_graph(
             data = json.load(file)
 
         types = {l: c.replace(' ', '_').lower() for l, c in data['kind_to_abbrev'].items() if not c.islower()}
-        norm_types = lambda x: f'{types[x.split('::', maxsplit=1)[0]]}__{x.split('::', maxsplit=1)[1].lower()}'
+        norm_types = lambda x: f"{types[x.split('::', maxsplit=1)[0]]}__{x.split('::', maxsplit=1)[1].lower()}"
 
         rels = {c: l.replace(' ', '_').lower() for l, c in data['kind_to_abbrev'].items() if c.islower()}
         non_lower = re.compile('[^a-z]')
